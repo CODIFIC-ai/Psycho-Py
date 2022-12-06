@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
+
+body {
+  font-family: "ABeeZee";
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.h-custom {
+  height: calc(100% - 73px);
+}
+
+.header-image{
+  display: inline-block !important;
+  max-width: 100% !important;
+  width: 30px !important;
+}
+
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+
+  .resize-font {
+    font-size: 0.65rem;
+  }
+}
+
+@media (min-width: 1px) {
+  .slides img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .slides p {
+    font-size: 0.4rem;
+  }
+
+  .texto-header{
+    font-size: 0.6rem;
+  }
+  
+}
+
+@media (min-width: 300px) {
+  .slides img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .slides p {
+    font-size: 0.55rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .slides img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .slides p {
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 501px) {
+  .slides img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .slides p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .slides img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .slides p {
+    font-size: 0.7rem;
+  }
+
+  .texto-header{
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .slides img {
+    width: 90px !important;
+    height: 90px !important;
+  }
+
+  .slides p {
+    font-size: 1rem;
+  }
+
+  .texto-header{
+    font-size: 1rem;
+  }
+}
+
+
+.box_drag {
+  position: absolute;
+  background-color: hotpink;
+  /* height: 60px; */
+  /* width: 60px; */
+  cursor: pointer;
+}
